@@ -6,7 +6,7 @@ import (
 	"net/smtp"
 )
 
-func sendEmail(target string,subject string,body string) (string, error){
+func SendEmail(target string,subject string,body string) (string, error){
 	auth:=smtp.PlainAuth(
 		"",
 		"techkaran5599@gmail.com",
